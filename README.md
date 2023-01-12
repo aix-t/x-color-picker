@@ -1,1 +1,1 @@
-# xt
+![img](https://raw.githubusercontent.com/aix-t/x-color-picker/main/media/view.gif)

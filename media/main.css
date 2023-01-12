@@ -1,0 +1,59 @@
+body {
+	background-color: transparent;
+}
+
+.color-list {
+	list-style: none;
+	padding: 0;
+	margin-bottom: 46px;
+}
+
+.color-entry {
+	width: 100%;
+	display: flex;
+	margin-bottom: 0.4em;
+	border: 1px solid var(--vscode-input-border);
+}
+
+.color-preview {
+	width: 2em;
+	height: 2em;
+}
+
+.color-preview:hover {
+	outline: inset white;
+}
+
+.color-list .color-input {
+	display: block;
+	flex: 1;
+	width: 100%;
+	color: var(--vscode-input-foreground);
+	background-color: var(--vscode-input-background);
+	border: none;
+	padding: 0 0.6em;
+}
+
+.picker {
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 2px 20px;
+	background: #3b3b3b;
+}
+
+.pick-label {
+	display: inline-block;
+	width: 26px;
+	position: relative;
+	top: 7px;
+}
+
+#colorPicker {
+	float: right;
+	width: calc(100% - 26px);
+	height: 36px;
+	padding: 0px;
+}
